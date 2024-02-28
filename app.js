@@ -17,6 +17,6 @@ app.listen(port, () => {
     res.send(`<h1>Página de cadastro de usuário</h1>`)
   });
   
-  app.get('contato', (req,res) => {
+  app.get('/contato', (req,res) => {
     res.send(`<h1>Contato</h1>`)
   });
