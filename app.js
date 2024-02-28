@@ -13,7 +13,7 @@ app.listen(port, () => {
     res.send(`<h1>&nbsp;Carros</h1>&nbsp;&nbsp;Detalhes do automóvel:<br><br>&nbsp;&nbsp;Marca - ${marca}<br>&nbsp;&nbsp;Modelo - ${modelo}<br>&nbsp;&nbsp;Ano - ${ano}`);
   });
 
-  app.get('cadastrar/usuario', (req,res) => {
+  app.get('/cadastrar/usuario', (req,res) => {
     res.send(`<h1>Página de cadastro de usuário</h1>`)
   });
   
